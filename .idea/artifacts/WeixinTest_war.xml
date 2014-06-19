@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WeixinTest:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/WeixinTest_war</output-path>
+    <root id="archive" name="WeixinTest_war.war">
+      <element id="artifact" artifact-name="WeixinTest:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="dom4j-1.6.1" />
+          <element id="library" level="project" name="xstream-1.4.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
